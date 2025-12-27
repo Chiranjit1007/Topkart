@@ -1,0 +1,1696 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Topkart</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/themify-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+  <!--   <div id="preloder">
+        <div class="loader"></div>
+    </div>
+ -->
+<!-- Header Section Begin -->
+<header class="header-section border-bottom" style="padding: 20px 35px;">
+  <div class="container-fluid">
+    <div class="row align-items-center gx-3">
+
+      <!-- Logo -->
+      <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center">
+        <a href="./index.html" class="d-flex align-items-center text-decoration-none" style="gap: 15px ; padding-left: 20px;">
+          <img src="img/logo.jpg" 
+               alt="Topkart Logo" 
+               style="max-height: 90px; border-radius: 10px; display: block;">
+          <h2 class="m-0 fw-bold text-dark" style="font-size: 40px;"><b>Topkart</b></h2>
+        </a>
+      </div>
+
+      <!-- Search Bar -->
+      <div class="col-lg-6 col-md-4 d-none d-md-flex">
+        <div class="input-group w-100 ms-3"> <!-- spacing between logo & search -->
+          <button type="button" class="btn btn-light border" 
+                  style="border-radius: 6px 0 0 6px; min-width: 120px; font-size: 15px;">
+            All Categories
+          </button>
+          <input type="text" class="form-control border-start-0" 
+                 placeholder="What do you need?" 
+                 style="border-radius: 0; height: 46px; font-size: 15px;">
+          <button type="button" class="btn btn-dark" 
+                  style="border-radius: 0 6px 6px 0; width:60px;">
+            <i class="ti-search fs-5"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Login + Wishlist + Cart -->
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="d-flex justify-content-end align-items-center flex-nowrap" style="gap:25px;">
+
+          <!-- Login -->
+          <a href="login.html" class="text-decoration-none text-primary d-flex align-items-center" 
+             style="font-size: 22px; white-space: nowrap;">
+            <i class="fa fa-user me-2 fs-5"></i> Login
+          </a>
+
+          <!-- Wishlist -->
+          <a href="wishlist.html" class="text-decoration-none text-danger d-flex align-items-center" 
+             style="font-size: 22px; white-space: nowrap;">
+            <i class="fa fa-heart me-2 fs-5"></i> Wishlist
+          </a>
+
+          <!-- Cart -->
+          <a href="shopping-cart.html" class="text-decoration-none text-warning d-flex align-items-center" style="font-size: 22px;">
+            <i class="fa fa-shopping-cart me-2 fs-5"></i> Cart <span class="cart-count">0</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- End Header Section -->
+
+
+<!-- list start -->
+<header>
+        <div class="nav-item">
+            <div class="container">
+                <div class="nav-depart">
+                    <div class="depart-btn">
+                        <i class="ti-menu"></i>
+                        <span>All departments</span>
+                        <ul class="depart-hover">
+                            <li class="active"><a href="#wclothing">Women’s Clothing</a></li>
+                            <li><a href="#mclothing">Men’s Clothing</a></li>
+                            <li><a href="#shoe">Shoes</a></li>
+                            <li><a href="#mob">Mobile’s</a></li>
+                            <li><a href="#laptop">Laptop’s</a></li>
+                            <li><a href="#smart">Smartwatch’s</a></li>
+                            <li><a href="#tv">T.V.’s</a></li>
+                            <li><a href="#air">Airbud’s</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <nav class="nav-menu mobile-menu">
+                    <ul>
+                        <li class="active"><a href="./index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="#">Collection</a>
+                            <ul class="dropdown">
+                                <li><a href="#wclothing">Cloth’s</a></li>
+                                <li><a href="#shoe">Shoes</a></li>
+                                <li><a href="#electric">Electronics</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="#">Pages</a>
+                            <ul class="dropdown">
+                                <li><a href="./wishlist.html">Wishlist</a></li>
+                                <li><a href="./shopping-cart.html">Shopping Cart</a></li>
+                                <li><a href="./login.html">Login</a></li>
+                                <li><a href="./register.html">Register</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="mobile-menu-wrap"></div>
+            </div>
+        </div>
+    </header>
+    <!-- list End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero-section">
+        <div class="hero-items owl-carousel active">
+            <div class="single-hero-items set-bg" data-setbg="img/slider/hero-1.png">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <span>Clothing,Shoes,Electronics</span>
+                            <h1>Clothing</h1>
+                            <p>Clothes are items worn on the body to cover, protect, and adorn it. They serve various purposes, including protection from  modesty, and self-expression through fashion.</p>
+                            <a href="#" class="primary-btn">Shop Now</a>
+                        </div>
+                    </div>
+                    <div class="off-card">
+                        <h2>Sale <span>35%</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="single-hero-items set-bg" data-setbg="img/slider/hero-2.png">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <span>Clothing,Shoes,Electronics</span>
+                            <h1>Shoes</h1>
+                            <p>Shoes are items of footwear designed to protect and comfort the human foot. They serve both functional and aesthetic purposes, offering protection from the environment and also acting as a fashion accessory.</p>
+                            <a href="#" class="primary-btn">Shop Now</a>
+                        </div>
+                    </div>
+                    <div class="off-card">
+                        <h2>Sale <span>40%</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="single-hero-items set-bg" data-setbg="img/slider/hero-3.png">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <span>Clothing,Shoes,Electronics</span>
+                            <h1>Electronices</h1>
+                            <p>Electronic items are devices that utilize electrical energy to perform various functions, primarily through the controlled flow of electric current, often involving the manipulation of signals for information processing and system control.</p>
+                            <a href="#" class="primary-btn">Shop Now</a>
+                        </div>
+                    </div>
+                    <div class="off-card">
+                        <h2>Sale <span>30%</span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Banner Section Begin -->
+    <div id="wclothing">
+    <div class="text-center " style="font-size:40px; margin-top: 50px;">
+        <u><b>Women’s Clothing</b></u>
+    </div>
+    <!-- Banner Section End -->
+
+    <!-- Women Banner Section Begin -->
+    <section class="women-banner spad">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="product-large set-bg" data-setbg="img/women_cloth/women-large.jpg">
+                        <h2>Women’s</h2>
+                        <a href="#">Discover More</a>
+                    </div>
+                </div>
+                <div class="col-lg-8 offset-lg-1">
+                    <div class="filter-control">
+                    </div>
+                    <div class="product-slider owl-carousel">
+                  
+                      
+                      <div class="product-item" >
+                        <div class="pi-pic">
+                          <img src="img/women_cloth/women-1.jpg" alt="Classic Tee">
+                            <div class="icon wishlist-btn"><i class="icon_heart_alt"></i></div>
+                              <ul>
+                                <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+                                <li class="quick-view"><a href="shop.html?id=product_1">+ Quick View</a></li>
+                                <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="pi-text">
+                          <div class="catagory-name">Sweater</div>
+                          <a href="product.html?id=p1001"><h5>Sleeve Cardigan Sweater</h5></a>
+                          <div class="product-price">₹450.00 <span>₹550.00</span></div>
+                        </div>
+                      </div>
+                      <div class="product-item" 
+     data-id="product_13" 
+     data-name="Gray Lace-up Back Sweater" 
+     data-price="1299" 
+     data-img="img/women_cloth/women-1-1.jpg">
+    
+    <div class="pi-pic">
+        <img src="img/women_cloth/women-5.jpg" alt="Gray Sweater">
+        <div class="icon wishlist-btn"><i class="icon_heart_alt"></i></div>
+        <ul>
+            <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+            <li class="quick-view"><a href="shop.html?id=product_13">+ Quick View</a></li>
+               <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+        </ul>
+    </div>
+    <div class="pi-text">
+        <div class="catagory-name">Dress</div>
+        <a href="shop.html?id=product_13">
+            <h5>Sleeveless A-line Skater Dress</h5>
+        </a>
+        <div class="product-price">
+            ₹899 <span>₹1099</span>
+        </div>
+    </div>
+</div>
+
+                      <div class="product-item" >
+                        <div class="pi-pic">
+                          <img src="img/women_cloth/women-2.jpg" alt="Classic Tee">
+                            <div class="icon wishlist-btn"><i class="icon_heart_alt"></i></div>
+                            <ul>
+                              <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+                              <li class="quick-view"><a href="shop.html?id=product_2">+ Quick View</a></li>
+                              <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+                            </ul>
+                          </div>
+                        <div class="pi-text">
+                        <div class="catagory-name">Sweater</div>
+                          <a href="product.html?id=p1001"><h5>V-Neck Twist Front Sweater</h5></a>
+                          <div class="product-price">₹599.00</div>
+                        </div>
+                      </div>
+
+                        <div class="product-item" >
+  <div class="pi-pic">
+    <img src="img/women_cloth/women-3.jpg" alt="Classic Tee">
+    <div class="icon wishlist-btn"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="shop.html?id=product_3">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Sweater</div>
+    <a href="product.html?id=p1001"><h5>Pullover Sweater</h5></a>
+    <div class="product-price">₹699.00 <span>₹899.00</span></div>
+  </div>
+</div>
+
+                       <div class="product-item" >
+  <div class="pi-pic">
+    <img src="img/women_cloth/women-4.jpg" alt="Classic Tee">
+    <div class="icon  wishlist-btn"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="shop.html?id=product_4">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Scarf</div>
+    <a href="product.html?id=p1001"><h5>Knitted Winter Scarf</h5></a>
+    <div class="product-price">₹399.00 <span>₹499.00</span></div>
+  </div>
+</div>
+
+                    <div class="product-item" >
+  <div class="pi-pic">
+    <img src="img/women_cloth/women-3.jpg"alt="Classic Tee">
+    <div class="icon wishlist-btn"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="shop.html?id=product_5">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Sweater</div>
+    <a href="product.html?id=p1001"><h5>Colorblock Oversized Pullover Sweater</h5></a>
+    <div class="product-price">₹599.00 <span>₹899.00</span></div>
+  </div>
+</div>
+
+ 
+</div>
+               <div class="slider-footer text-center">
+  <a href="shop.html" class="view-all-btn">View All Items</a>
+</div>
+
+   
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+    <!-- Women Banner Section End -->
+
+     <div id="mclothing">
+    <div class="text-center " style="font-size:40px;">
+        <u><b>Men’s Clothing</b></u>
+    </div>
+
+    <!-- Man Banner Section Begin -->
+    <section class="man-banner spad">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="filter-control">
+                       
+                    </div>
+                    <div class="product-slider owl-carousel">
+                       <div class="product-item" >
+  <div class="pi-pic">
+    <img src="img/mens_cloth/shirt-1.jpeg" alt="Classic Tee">
+    <div class="icon wishlist-btn"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="shop.html?id=product_6">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Shirt</div>
+    <a href="product.html?id=p1001"><h5>Dark Green Casual Button-Down Shirt</h5></a>
+    <div class="product-price">₹350.00 <span>₹450.00</span></div>
+  </div>
+</div>
+
+                    <div class="product-item" >
+  <div class="pi-pic">
+    <img src="img/mens_cloth/shirt-2.jpeg" alt="Classic Tee">
+    <div class="icon wishlist-btn"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="shop.html?id=product_7">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Shirt</div>
+    <a href="product.html?id=p1001"><h5>Blue Metallic Print Shirt</h5></a>
+    <div class="product-price">₹599.00 <span>₹899.00</span></div>
+  </div>
+</div>
+
+                        <div class="product-item" >
+  <div class="pi-pic">
+    <img src="img/mens_cloth/shirt-3.jpeg" alt="Classic Tee">
+    <div class="icon wishlist-btn"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="shop.html?id=product_8">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">T-Shirt</div>
+    <a href="product.html?id=p1001"><h5>Dark Green T-Shirt</h5></a>
+    <div class="product-price">₹499.00 <span>₹699.00</span></div>
+  </div>
+</div>
+
+                        <div class="product-item" >
+  <div class="pi-pic">
+    <img src="img/mens_cloth/shirt-6.jpg" alt="Classic Tee">
+    <div class="icon wishlist-btn"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="shop.html?id=product_9">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Shirt</div>
+    <a href="product.html?id=p1001"><h5>Olive Utility Shirt with Sleeve Print</h5></a>
+    <div class="product-price">₹599.00 <span>₹899.00</span></div>
+  </div>
+</div>
+
+                          <div class="product-item" >
+  <div class="pi-pic">
+    <img src="img/mens_cloth/shirt-5.jpeg" alt="Classic Tee">
+    <div class="icon wishlist-btn"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="shop.html?id=product_10">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Shirt</div>
+    <a href="product.html?id=p1001"><h5>Navy and Black Plaid Flannel Shirt</h5></a>
+    <div class="product-price">₹699.00 <span>₹899.00</span></div>
+  </div>
+</div>
+
+                       <div class="product-item" >
+  <div class="pi-pic">
+    <img src="img/mens_cloth/shirt-4.jpeg" alt="Classic Tee">
+    <div class="icon wishlist-btn"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="shop.html?id=product_11">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Blazzer</div>
+    <a href="product.html?id=p1001"><h5>Dark Blue Two-Button Blazer</h5></a>
+    <div class="product-price">2400.00 <span>₹2000.00</span></div>
+  </div>
+</div>
+
+                        <div class="product-item" >
+  <div class="pi-pic">
+    <img src="img/mens_cloth/shirt-7.jpg" alt="Classic Tee">
+    <div class="icon wishlist-btn"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="shop.html?id=product_12">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">jacket</div>
+    <a href="product.html?id=p1001"><h5>Green Lightweight Hooded Jacket</h5></a>
+    <div class="product-price">₹499.00 <span>₹699.00</span></div>
+  </div>
+</div>
+
+                    </div>
+                    <div class="slider-footer text-center">
+  <a href="shop.html" class="view-all-btn">View All Items</a>
+</div>
+                </div>
+                <div class="col-lg-3 offset-lg-1">
+                    <div class="product-large set-bg m-large" data-setbg="img/mens_cloth/man-large.jpg">
+                        <h2>Men’s</h2>
+                        <a href="#">Discover More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+    <!-- Man Banner Section End -->
+
+
+    <!-- shoes section start -->
+    <div id="shoe">
+     <div class="text-center " style="font-size:40px; padding-bottom: 30px;">
+        <u><b>Shoes</b></u>
+    </div>
+    <div class="row">
+    <div class="col-lg-1"></div>
+ <div class="product-slider owl-carousel col-lg-10">
+                       <div class="product-item" ">
+  <div class="pi-pic">
+    <img src="img/shoe/shoe-1.jpeg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=product_22">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Shoe</div>
+    <a href="product.html?id=p1001"><h5>Mid-top Sneaker</h5></a>
+    <div class="product-price">₹999 <span>₹1,100</span></div>
+  </div>
+</div>
+
+                     <div class="product-item" >
+  <div class="pi-pic">
+    <img src="img/shoe/shoe-2.jpeg" alt="Classic Tee">
+    <div class="icon wishlist-btn"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=product_14">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Shoe</div>
+    <a href="product.html?id=p1001"><h5>White & Grey Sneaker</h5></a>
+    <div class="product-price">₹799.00</div>
+  </div>
+</div>
+
+                       <div class="product-item" >
+  <div class="pi-pic">
+    <img src="img/shoe/shoe-3.jpeg"alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=product_15">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Shoe</div>
+    <a href="product.html?id=p1001"><h5>Colorful Athletic Sneaker</h5></a>
+    <div class="product-price">₹1000.00 <span>₹1199.00</span></div>
+  </div>
+</div>
+
+                    <div class="product-item" >
+  <div class="pi-pic">
+    <img src="img/shoe/shoe-4.jpeg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=product_16">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Shoe</div>
+    <a href="product.html?id=p1001"><h5>White & Black Casual Sneaker</h5></a>
+    <div class="product-price">₹899.00 <span>₹1099.00</span></div>
+  </div>
+</div>
+
+                        <div class="product-item" >
+  <div class="pi-pic">
+    <img src="img/shoe/shoe-5.jpeg"alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=product_17">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Sneaker</div>
+    <a href="product.html?id=p1001"><h5>Simple Casual Sneaker</h5></a>
+    <div class="product-price">₹599.00 <span>₹799.00</span></div>
+  </div>
+</div>
+
+                        <div class="product-item" >
+  <div class="pi-pic">
+    <img src="img/shoe/shoe-6.jpeg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=product_18">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Shoe</div>
+    <a href="product.html?id=p1001"><h5>Black & White Sport Shoe</h5></a>
+    <div class="product-price">₹799.00 <span>₹899.00</span></div>
+  </div>
+</div>
+
+                         <div class="product-item" >
+  <div class="pi-pic">
+    <img src="img/shoe/shoe-7.jpeg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=product_19">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Shoe</div>
+    <a href="product.html?id=p1001"><h5>Simple Casual Sneaker</h5></a>
+    <div class="product-price">₹599.00 <span>₹799.00</span></div>
+  </div>
+</div>
+
+                         <div class="product-item" >
+  <div class="pi-pic">
+    <img src="img/shoe/shoe-8.jpeg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=product_20">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Shoe</div>
+    <a href="product.html?id=p1001"><h5>Casual Shoe</h5></a>
+    <div class="product-price">₹399.00 <span>₹499.00</span></div>
+  </div>
+</div>
+
+                    <div class="product-item" >
+  <div class="pi-pic">
+    <img src="img/shoe/shoe-9.jpeg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=product_21">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Shoe</div>
+    <a href="product.html?id=p1001"><h5>White Sport Shoe with Yellow Accents</h5></a>
+    <div class="product-price">₹699.00 <span>₹599.00</span></div>
+  </div>
+</div>
+
+                    </div>
+    <div class="col-lg-1"></div>
+   
+</div>
+ <div class="slider-footer text-center">
+  <a href="shop.html" class="view-all-btn">View All Items</a>
+</div>
+</div>
+ <!-- Shoes section end -->
+   
+   <!-- Electronices section start -->
+   <section id="electric">
+     <div class="text-center " style="font-size:40px; padding-bottom: 30px;">
+        <u><b>Best of Electronices’s</b></u>
+       <div id="mob">
+           <div class="text-left " style="font-size:35px; padding-bottom: 30px;padding-left: 130px; ">
+        <u><b>Mobile’s</b></u>
+    </div>
+    <div class="row">
+    <div class="col-lg-1"></div>
+ <div class="product-slider owl-carousel col-lg-10">
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/mobile/phone1.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Mobile</div>
+    <a href="product.html?id=p1001"><h5>OnePlus 12</h5></a>
+    <div class="product-price">₹64,900</div>
+  </div>
+</div>
+
+                       <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/mobile/phone2.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Mobile</div>
+    <a href="product.html?id=p1001"><h5>iPhone 15 Pro Max</h5></a>
+    <div class="product-price">₹1,19,900</div>
+  </div>
+</div>
+
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/mobile/phone3.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Mobile</div>
+    <a href="product.html?id=p1001"><h5>iPhone 16 Pro Max</h5></a>
+    <div class="product-price">₹1,34,900</div>
+  </div>
+</div>
+
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/mobile/phone4.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Mobile</div>
+    <a href="product.html?id=p1001"><h5>iPhone 15 Pro</h5></a>
+    <div class="product-price">₹1,15,900</div>
+  </div>
+</div>
+
+                       <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/mobile/phone5.jpg"  alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Mobile</div>
+    <a href="product.html?id=p1001"><h5>OnePlus Nord 3 5G</h5></a>
+    <div class="product-price">₹26,999</div>
+  </div>
+</div>
+
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/mobile/phone6.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Mobile</div>
+    <a href="product.html?id=p1001"><h5>OnePlus 12</h5></a>
+    <div class="product-price">₹71,299</div>
+  </div>
+</div>
+
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/mobile/phone7.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Mobile</div>
+    <a href="product.html?id=p1001"><h5>OPPO Reno 11 Pro</h5></a>
+    <div class="product-price">₹29,999</div>
+  </div>
+</div>
+
+                       <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/mobile/phone8.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Mobile</div>
+    <a href="product.html?id=p1001"><h5>OPPO Reno 11 Pro</h5></a>
+    <div class="product-price">₹38,999</div>
+  </div>
+</div>
+
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/mobile/phone9.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Mobile</div>
+    <a href="product.html?id=p1001"><h5>Vivo V30 Pro</h5></a>
+    <div class="product-price">₹22,999</div>
+  </div>
+</div>
+
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/mobile/phone10.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Mobile</div>
+    <a href="product.html?id=p1001"><h5>Redmi Note 13 Pro+</h5></a>
+    <div class="product-price">₹24,999</div>
+  </div>
+</div>
+
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/mobile/phone11.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Mobile</div>
+    <a href="product.html?id=p1001"><h5>Vivo V30</h5></a>
+    <div class="product-price">₹38,999</div>
+  </div>
+</div>
+
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/mobile/phone12.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Mobile</div>
+    <a href="product.html?id=p1001"><h5>Vivo Y400 Pro</h5></a>
+    <div class="product-price">₹24,999</div>
+  </div>
+</div>
+
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/mobile/phone13.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Mobile</div>
+    <a href="product.html?id=p1001"><h5>Xiaomi 15</h5></a>
+    <div class="product-price">₹18,999</div>
+  </div>
+</div>
+
+                    </div>
+    <div class="col-lg-1"></div>
+</div>
+ <div class="slider-footer text-center">
+  <a href="shop.html" class="view-all-btn">View All Items</a>
+</div>
+       </div>
+
+
+       <div id="laptop">
+           <div class="text-left " style="font-size:35px; padding-bottom: 30px;padding-left: 130px; ">
+        <u><b>Laptop’s</b></u>
+    </div>
+    <div class="row">
+    <div class="col-lg-1"></div>
+ <div class="product-slider owl-carousel col-lg-10">
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/Laptop/laptop1.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Laptop</div>
+    <a href="product.html?id=p1001"><h5>Dell XPS 15</h5></a>
+    <div class="product-price">₹1,20,999</div>
+  </div>
+</div>
+                         <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/Laptop/laptop2.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Laptop</div>
+    <a href="product.html?id=p1001"><h5>Apple MacBook Pro M3 Max</h5></a>
+    <div class="product-price">₹1,90,999 <span>₹2,10,000</span></div>
+  </div>
+</div>
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/Laptop/laptop3.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Laptop</div>
+    <a href="product.html?id=p1001"><h5>Lenovo IdeaPad Slim 3 15AMN8 (16GB)</h5></a>
+    <div class="product-price">₹72,000<span>₹75,999</span></div>
+  </div>
+</div>
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/Laptop/laptop4.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Laptop</div>
+    <a href="product.html?id=p1001"><h5>Acer Aspire Lite AL15-53</h5></a>
+    <div class="product-price">₹31,999 <span>₹35,999</span></div>
+  </div>
+</div>
+                      <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/Laptop/laptop5.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Laptop</div>
+    <a href="product.html?id=p1001"><h5>ASUS TUF Gaming A15</h5></a>
+    <div class="product-price">₹89,990</div>
+  </div>
+</div>
+                         <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/Laptop/laptop6.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Laptop</div>
+    <a href="product.html?id=p1001"><h5>ASUS Vivobook S15 K5504VAB</h5></a>
+    <div class="product-price">₹70,999<span>₹74,990</span></div>
+  </div>
+</div>
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/Laptop/laptop7.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Laptop</div>
+    <a href="product.html?id=p1001"><h5>Samsung Galaxy Book 4 Ultra</h5></a>
+    <div class="product-price">₹1,80,999</div>
+  </div>
+</div>
+ <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/Laptop/laptop8.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Laptop</div>
+    <a href="product.html?id=p1001"><h5>HP Victus 15-fb3025AX</h5></a>
+    <div class="product-price">₹75,900</div>
+  </div>
+</div>
+ <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/Laptop/laptop9.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Laptop</div>
+    <a href="product.html?id=p1001"><h5>Microsoft Surface Laptop</h5></a>
+    <div class="product-price">₹1,31,999</div>
+  </div>
+</div>
+                   <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/Laptop/laptop10.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Laptop</div>
+    <a href="product.html?id=p1001"><h5>Lenovo Intel Core i3 13th Gen</h5></a>
+    <div class="product-price">₹45,990<span>₹49,499</span></div>
+  </div>
+</div>
+                    </div>
+    <div class="col-lg-1"></div>
+</div>
+ <div class="slider-footer text-center">
+  <a href="shop.html" class="view-all-btn">View All Items</a>
+</div>
+       </div>
+
+
+
+       <div id="smart">
+           <div class="text-left " style="font-size:35px; padding-bottom: 30px;padding-left: 130px; ">
+        <u><b>SmartWatch’s</b></u>
+    </div>
+    <div class="row">
+    <div class="col-lg-1"></div>
+ <div class="product-slider owl-carousel col-lg-10">
+                   <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/watch/watch1.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">SmartWatch</div>
+    <a href="product.html?id=p1001"><h5>Apple Watch Series 10</h5></a>
+    <div class="product-price">₹43,800 <span>₹45,800</span></div>
+  </div>
+</div>
+                         <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/watch/watch2.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">SmartWatch</div>
+    <a href="product.html?id=p1001"><h5>Samsung Galaxy Watch 7</h5></a>
+    <div class="product-price">₹18,999</div>
+  </div>
+</div>
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/watch/watch3.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">SmartWatch</div>
+    <a href="product.html?id=p1001"><h5>Google Pixel Watch 3</h5></a>
+    <div class="product-price">₹26,999 <span>₹28,999</span></div>
+  </div>
+</div>
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/watch/watch4.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">SmartWatch</div>
+    <a href="product.html?id=p1001"><h5>OnePlus Watch 2R</h5></a>
+    <div class="product-price">₹12,499 <span>₹13,499</span></div>
+  </div>
+</div>
+                      <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/watch/watch5.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">SmartWatch</div>
+    <a href="product.html?id=p1001"><h5>Noise ColorFit Pro 5</h5></a>
+    <div class="product-price">₹3,999</div>
+  </div>
+</div>
+                         <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/watch/watch6.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">SmartWatch</div>
+    <a href="product.html?id=p1001"><h5>Smart Fitness Watch</h5></a>
+    <div class="product-price">₹599.00 <span>₹1,200.00</span></div>
+  </div>
+</div>
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/watch/watch7.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Watch</div>
+    <a href="product.html?id=p1001"><h5>Titan Crest</h5></a>
+    <div class="product-price">₹6,999</span></div>
+  </div>
+</div>
+ <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/watch/watch8.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Watch</div>
+    <a href="product.html?id=p1001"><h5>Fossil Gen 6</h5></a>
+    <div class="product-price">₹599.00 <span>₹699.00</span></div>
+  </div>
+</div>
+ <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/watch/watch9.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Watch</div>
+    <a href="product.html?id=p1001"><h5>Amazfit GTR 4</h5></a>
+    <div class="product-price">₹499<span>₹599</span></div>
+  </div>
+</div>
+                   <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/watch/watch10.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Watch</div>
+    <a href="product.html?id=p1001"><h5>Garmin Venu 3</h5></a>
+    <div class="product-price">₹399.00 <span>₹499.00</span></div>
+  </div>
+</div>
+                    </div>
+    <div class="col-lg-1"></div>
+</div>
+ <div class="slider-footer text-center">
+  <a href="shop.html" class="view-all-btn">View All Items</a>
+</div>
+       </div>
+
+
+
+       <div id="tv">
+          <div class="text-left " style="font-size:35px; padding-bottom: 30px;padding-left: 130px; ">
+        <u><b>Smart Tv’s</b></u>
+    </div>
+    <div class="row">
+    <div class="col-lg-1"></div>
+ <div class="product-slider owl-carousel col-lg-10">
+              <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/tv/tv1.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Smart Tv</div>
+    <a href="product.html?id=p1001"><h5>Samsung Neo QLED 8K</h5></a>
+    <div class="product-price">₹1,80,000</div>
+  </div>
+</div>
+                         <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/tv/tv2.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Smart Tv</div>
+    <a href="product.html?id=p1001"><h5>Samsung Crystal 4K Vista</h5></a>
+    <div class="product-price">₹40,999<span>₹42,999</span></div>
+  </div>
+</div>
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/tv/tv3.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Smart Tv</div>
+    <a href="product.html?id=p1001"><h5>Sony Bravia 8 II OLED</h5></a>
+    <div class="product-price">₹1,20,999</div>
+  </div>
+</div>
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/tv/tv4.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Smart Tv</div>
+    <a href="product.html?id=p1001"><h5>OnePlus Q2 Pro QLED</h5></a>
+    <div class="product-price">₹1,50,999 <span>₹1,52,999</span></div>
+  </div>
+</div>
+                      <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/tv/tv5.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Smart Tv</div>
+    <a href="product.html?id=p1001"><h5>Xiaomi X Pro QLED 2025</h5></a>
+    <div class="product-price">₹40,999</div>
+  </div>
+</div>
+                         <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/tv/tv6.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Smart Tv</div>
+    <a href="product.html?id=p1001"><h5>Xiaomi X Pro QLED</h5></a>
+    <div class="product-price">₹49,999</div>
+  </div>
+</div>
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/tv/tv7.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Smart Tv</div>
+    <a href="product.html?id=p1001"><h5>LG 4K UHD Smart TV</h5></a>
+    <div class="product-price">₹38,999 <span>₹40,999</span></div>
+  </div>
+</div>
+ <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/tv/tv8.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Smart Tv</div>
+    <a href="product.html?id=p1001"><h5>LG OLED evo C4</h5></a>
+    <div class="product-price">₹45,999 <span>₹48,999</span></div>
+  </div>
+</div>
+ <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/tv/tv9.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Smart Tv</div>
+    <a href="product.html?id=p1001"><h5>Samsung Android Smart Full HD LED TV</h5></a>
+    <div class="product-price">₹28,999</div>
+  </div>
+</div>
+                   <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/tv/tv10.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Smart Tv</div>
+    <a href="product.html?id=p1001"><h5>Acer Advanced I Series</h5></a>
+    <div class="product-price">₹53,990 <span>₹56,990</span></div>
+  </div>
+</div>
+                    </div>
+    <div class="col-lg-1"></div>
+</div> 
+ <div class="slider-footer text-center">
+  <a href="shop.html" class="view-all-btn">View All Items</a>
+</div>
+       </div>
+
+
+       <div id="air">
+           <div class="text-left " style="font-size:35px; padding-left: 130px; padding-bottom: 30px;">
+        <u><b>Earbud’s</b></u>
+    </div>
+    <div class="row">
+    <div class="col-lg-1"></div>
+ <div class="product-slider owl-carousel col-lg-10">
+                         <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/earbuds/earbuds1.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Earbud</div>
+    <a href="product.html?id=p1001"><h5>Apple AirPods Pro 2</h5></a>
+    <div class="product-price">₹19,900</div>
+  </div>
+</div>
+                         <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/earbuds/earbuds2.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Earbud</div>
+    <a href="product.html?id=p1001"><h5>Samsung Galaxy Buds 3 Pro</h5></a>
+    <div class="product-price">₹11,999<span>₹13,999</span></div>
+  </div>
+</div>
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/earbuds/earbuds3.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Earbud</div>
+    <a href="product.html?id=p1001"><h5>Sony WF-1000XM5</h5></a>
+    <div class="product-price">₹22,990 <span>₹23,999</span></div>
+  </div>
+</div>
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/earbuds/earbuds4.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Earbud</div>
+    <a href="product.html?id=p1001"><h5>JBL Live Beam 3</h5></a>
+    <div class="product-price">₹9,999</div>
+  </div>
+</div>
+                      <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/earbuds/earbuds5.jpg"alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Earbud</div>
+    <a href="product.html?id=p1001"><h5>boAt Airdopes 131 Gen 2</h5></a>
+    <div class="product-price">₹11,999<span>₹13,999</span></div>
+  </div>
+</div>
+                         <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/earbuds/earbuds6.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Earbud</div>
+    <a href="product.html?id=p1001"><h5>Realme Buds Air 6 Pro</h5></a>
+    <div class="product-price">₹4,999</div>
+  </div>
+</div>
+                        <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/earbuds/earbuds7.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Earbud</div>
+    <a href="product.html?id=p1001"><h5>Nothing Ear</h5></a>
+    <div class="product-price">₹9,999 <span>₹10,999</span></div>
+  </div>
+</div>
+ <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/earbuds/earbuds8.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Earbud</div>
+    <a href="product.html?id=p1001"><h5>OnePlus Nord Buds 3 Pro</h5></a>
+    <div class="product-price">₹2,999</div>
+  </div>
+</div>
+ <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/earbuds/earbuds9.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Earbud</div>
+    <a href="product.html?id=p1001"><h5>Noise Buds N1 Pro</h5></a>
+    <div class="product-price">₹16,999</div>
+  </div>
+</div>
+                   <div class="product-item" data-id="p1001" data-name="Classic Tee" data-price="599.00" data-img="img/products/tee-1.jpg">
+  <div class="pi-pic">
+    <img src="img/earbuds/earbuds10.jpg" alt="Classic Tee">
+    <div class="icon"><i class="icon_heart_alt"></i></div>
+    <ul>
+      <li class="w-icon active"><a href="#" class="add-to-cart"><i class="icon_bag_alt"></i></a></li>
+      <li class="quick-view"><a href="product.html?id=p1001">+ Quick View</a></li>
+      <li class="w-icon"><a href="#" title="Compare"><i class="fa fa-random"></i></a></li>
+    </ul>
+  </div>
+  <div class="pi-text">
+    <div class="catagory-name">Earbud</div>
+    <a href="product.html?id=p1001"><h5>boAt Airdopes 131 Gen 2</h5></a>
+    <div class="product-price">₹899<span>₹999</span></div>
+  </div>
+</div>
+                    </div>
+    <div class="col-lg-1"></div>
+</div>
+ <div class="slider-footer text-center">
+  <a href="shop.html" class="view-all-btn">View All Items</a>
+</div>
+       </div>
+
+   </section>
+    <!-- Electronices section end -->   
+
+    <!-- Footer Section Begin -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer-left">
+                        <div class="footer-logo">
+                            <a href="#"><img src="img/footer-logo.png" style="border-radius: 10px; "></a>
+                        </div>
+                        <ul>
+                            <li>Address: Contai, Purba Medinipur</li>
+                            <li>Phone: +91 7364008467</li>
+                            <li>Email: chiranjitpal212@gmail.com</li>
+                        </ul>
+                        <div class="footer-social">
+                            <a href="https://www.facebook.com/chiranjit.pal.880549"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/chiranjit_pal1007"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/chiranjit-pal-b9a921326"> <i class="fa fa-linkedin"></i></a>
+                            <a href="https://github.com/chiranjit1007"><i class="fa fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-1">
+                    <div class="footer-widget">
+                        <h5>Information</h5>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Checkout</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Serivius</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-widget">
+                        <h5>My Account</h5>
+                        <ul>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Shopping Cart</a></li>
+                            <li><a href="#">Shop</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="newslatter-item">
+                        <h5>Join Our Newsletter Now</h5>
+                        <p>Get E-mail updates about our latest shop and special offers.</p>
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="Enter Your Mail">
+                            <button type="button">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-reserved">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright-text">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Designed by Chiranjit Pal
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </div>
+                        <div class="payment-pic">
+                            <a href="#"><img src="img/payment-method.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.zoom.min.js"></script>
+    <script src="js/jquery.dd.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
